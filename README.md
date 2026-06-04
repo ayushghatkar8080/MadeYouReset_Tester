@@ -50,8 +50,8 @@ This makes it a bypass of mitigations introduced for the earlier **Rapid Reset**
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/madeyoureset-checker.git
-cd madeyoureset-checker
+git clone https://github.com/ayushghatkar8080/MadeYouReset_Tester.git
+cd MadeYouReset_Tester
 # No pip install needed — no dependencies
 ```
 
@@ -60,7 +60,7 @@ cd madeyoureset-checker
 ## Usage
 
 ```bash
-python3 madeyoureset_check.py <url> [OPTIONS]
+python3 main.py <url> [OPTIONS]
 ```
 
 ### Options
@@ -74,13 +74,13 @@ python3 madeyoureset_check.py <url> [OPTIONS]
 
 ```bash
 # Basic check
-python3 madeyoureset_check.py https://example.com
+python3 main.py https://example.com
 
 # Custom port and longer timeout
-python3 madeyoureset_check.py https://example.com:8443 --timeout 15
+python3 main.py https://example.com:8443 --timeout 15
 
 # CI-friendly (no colour)
-python3 madeyoureset_check.py https://example.com --no-color
+python3 main.py https://example.com --no-color
 ```
 
 ---
